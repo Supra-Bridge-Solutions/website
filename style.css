@@ -32,7 +32,7 @@ body {
 }
 
 .navbar .logo {
-    width: 50mm;  /* Set the width of the logo */
+    width: 10mm;  /* Set the width of the logo */
     height: auto;  /* Set the height of the logo */
     background-image: url('img/Supra Bridge Solutions.png');
     background-size: contain; /* Ensure the logo fits within the container */
