@@ -13,25 +13,37 @@ body {
 }
 
 /* Navbar Styles */
+/* Navbar Styles */
 .navbar {
     background: #0044cc;
     color: #fff;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
+    width: 120px;  /* Set the width of the logo */
+    height: 40px;  /* Set the height of the logo */
+    background-image: url('img/Supra Bridge Solutions.png');
+    background-size: contain; /* Ensure the logo fits within the container */
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.3s ease; /* Optional: Smooth scale effect on hover */
 }
 
+.navbar .logo:hover {
+    transform: scale(1.1); /* Slight zoom effect when hovering */
+}
+
+/* Navigation Links */
 .nav-links {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .nav-links li {
