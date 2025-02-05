@@ -32,13 +32,15 @@ body {
 }
 
 .navbar .logo {
-    width: 10mm;  /* Set the width of the logo */
-    height: auto;  /* Set the height of the logo */
+    width: 100%;  /* Allow it to take up available space */
+    max-width: 200px;  /* Set a maximum width for the logo */
+    height: auto;  /* Let the height adjust proportionally */
     background-image: url('img/Supra Bridge Solutions.png');
-    background-size: contain; /* Ensure the logo fits within the container */
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transition: transform 0.3s ease; /* Optional: Smooth scale effect on hover */
+    transition: transform 0.3s ease;
+    object-fit: contain;  /* Ensure the image scales properly */
 }
 
 .navbar .logo:hover {
