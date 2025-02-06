@@ -6,6 +6,12 @@ body {
     color: #333;
 }
 
+h2{
+    animation: slide-in 3s ease-out forwards;
+    transform: translatex(50px); /* Start position below */
+    opacity: 0; /* Initially hidden */
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
