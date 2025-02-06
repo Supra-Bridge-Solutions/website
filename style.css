@@ -83,8 +83,18 @@ body {
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    
+    animation: slide-in 3s ease-out forwards;
+    transform: translateY(50px); /* Start position below */
+    opacity: 0; /* Initially hidden */
 }
 
+@keyframes slide-in {
+    to {
+        transform: translateY(0); /* Slide to original position */
+        opacity: 1; /* Fully visible */
+    }
+}
 .hero .btn {
     background: #0044cc;
     color: #fff;
