@@ -19,7 +19,6 @@ body {
     color: #fff;
     padding: 1rem 2rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
 }
@@ -32,9 +31,9 @@ body {
 }
 
 .navbar .logo {
-    width: 100%;  /* Allow it to take up available space */
-    max-width: 200px;  /* Set a maximum width for the logo */
-    height: auto;  /* Let the height adjust proportionally */
+    display: inline-block;
+    width: 50px;  /* Allow it to take up available space */
+    height: 50px;  /* Let the height adjust proportionally */
     background-image: url('img/Supra Bridge Solutions.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -43,9 +42,6 @@ body {
     object-fit: contain;  /* Ensure the image scales properly */
 }
 
-.navbar .logo:hover {
-    transform: scale(1.1); /* Slight zoom effect when hovering */
-}
 
 /* Navigation Links */
 .nav-links {
