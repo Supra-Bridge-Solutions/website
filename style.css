@@ -171,3 +171,14 @@ footer {
     text-decoration: underline;
   }
   
+  .contact .box{
+        width: 300px;
+        height: 150px;
+        background-color: #ffffff;
+        color: rgb(2, 2, 2);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1.2rem;
+        border: 2px solid #ffffff; /* Blue border */
+  }
