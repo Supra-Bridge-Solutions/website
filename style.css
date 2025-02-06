@@ -34,7 +34,7 @@ body {
     display: inline-block;
     width: 50px;  /* Allow it to take up available space */
     height: 50px;  /* Let the height adjust proportionally */
-    background-image: url('website/img/Supra Bridge Solutions.png');
+    background-image: url('img/Supra Bridge Solutions.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
