@@ -10,6 +10,8 @@ h2{
     animation: slide-in 3s ease-out forwards;
     transform: translatex(50px); /* Start position below */
     opacity: 0; /* Initially hidden */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .container {
@@ -123,3 +125,49 @@ footer {
     margin-top: 2rem;
 }
 
+.project-showcase {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .project-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .project-card h2 {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .project-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .project-card ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .project-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+  
