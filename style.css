@@ -182,3 +182,9 @@ footer {
         font-size: 1.2rem;
         border: 2px solid #ffffff; /* Blue border */
   }
+  
+ .services li {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 5px;
+}
